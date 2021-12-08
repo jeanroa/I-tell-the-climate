@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Source+Sans+3:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" class="search-bar" name="search-bar" id="" placeholder="Enter a location">
+      <button>
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="weather loading">
+      <h2 class="city" id="city"></h2>
+      <div class="temp"></div>
+      <!-- <img src="" alt="" class="icon"> -->
+      <div class="description"></div>
+      <div class="humidity"></div>
+      <div class="wind"></div>
+    </div>
+  </div>
+  <!-- <footer>
+    Made with love by <a href="">Jean Marco Roa</a> | Powered by <a href="">OpenWeatherMap</a>
+  </footer> -->
+  <script src="app.js" defer></script>
+  <script src="https://kit.fontawesome.com/976207c657.js" crossorigin="anonymous"></script>
+</body>
+</html>
