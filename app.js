@@ -38,3 +38,5 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
 })
 
 weather.fetchWeather("New York") 
+
+alert('Por motivos de seguridad, la API ha sido removida')
